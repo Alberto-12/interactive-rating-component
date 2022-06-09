@@ -1,0 +1,134 @@
+.main {
+    font-family: 'Overpass', sans-serif;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color: #f3f3f3;
+
+}
+
+.app {
+    border-style: solid;
+    border-radius: 30px;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 327px;
+    height: 360px;
+    margin: auto;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+}
+
+.iconDiv {
+    /*margin-left: 40px;
+    margin-top: 40px;*/
+    border-radius: 360px;
+    background-color: #262E38;
+    width: 48px;
+    height: 48px;
+    margin: 24px;
+}
+
+.star {
+    position: absolute;
+    width: 13.96px;
+    height: 13.33px;
+    left: 40.33px;
+    top: 40.33px;
+
+
+}
+
+.question {
+    position: absolute;
+    height: 30px;
+    left: 7.34%;
+    right: 7.34%;
+    top: calc(50% - 30px/2 - 85px);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+
+
+
+    color: #FFFFFF;
+
+}
+
+.feedback {
+    /*margin-left: 0px;*/
+    color: #969FAD;
+    width: 340px;
+    height: 72px;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+
+}
+
+.feedbackDiv {
+    position: absolute;
+    padding: 24px;
+
+
+}
+
+.button {
+    border-radius: 360px;
+    width: 42px;
+    height: 42px;
+    background: #262E38;
+    color: #7C8798;
+    border: none;
+
+}
+
+.buttonContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 281px;
+    height: 42px;
+    margin-top: 120px;
+    margin-left: 8px;
+
+
+}
+
+.buttonContainer>span {
+    width: 50px;
+    margin: -10px;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    margin-top: 20px;
+    /*margin-left: 30px*/
+}
+
+.submitbutton {
+    margin-left: 25px;
+    margin-top: 60px;
+    width: 279px;
+    height: 45px;
+    border-radius: 22.5px;
+    background: #FC7614;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    border: none;
+
+}
