@@ -132,3 +132,20 @@
     border: none;
 
 }
+
+.button:hover {
+    background: red;
+    transition: 0.7s;
+}
+
+.submitbutton:hover {
+    background-color:white;
+    transition: 0.7s;
+}
+
+.ancor {
+    color: white;
+}
+
+
+
