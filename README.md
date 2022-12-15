@@ -1,6 +1,6 @@
 # Frontend Mentor - Interactive rating component solution
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/interactive-rating-component-91p4GnvP9P). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -35,8 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [live site URL](https://alberto-12.github.io/interactive-rating-component/)
 
 ## My process
 
@@ -47,9 +46,7 @@ Users should be able to:
 
 ### What I learned
 
-In this challenge I learned how to use HTML and CSS. 
-
-it was really interesting to lear about display: flex rule and hovering effect:
+ This is a small project to practice handling user interactions and updating the DOM with JavaScript but  is missing the Javasript code which I still need to work on. It was usefull anyway to learn CSS positioning using Flexbox. Here's a snippet of the CSS code with Flexbox and hovering effect:
 
 ```css
 .buttonContainer {
@@ -70,7 +67,7 @@ it was really interesting to lear about display: flex rule and hovering effect:
 
 ### Continued development
 
-I'm looking forward to learn more about css positioning techniques like grid. 
+I'm looking forward to learn more about css positioning techniques like grid and also to implement the Javascript code. 
 
 ### Useful resources
 
@@ -78,10 +75,10 @@ I'm looking forward to learn more about css positioning techniques like grid.
 
 ## Author
 
-- Frontend Mentor - [@Alberto-12](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Alberto-12](https://www.frontendmentor.io/profile/Alberto-12)
 
 
 ## Acknowledgments
 
-I'm very thankful for my mentor Tresure Kabareebe that guided me through the process.
+I'm very thankful for my mentor [Tresure Kabareebe](https://github.com/trekab) that guided me through the process.
 
