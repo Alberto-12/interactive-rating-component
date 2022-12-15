@@ -1,0 +1,66 @@
+body {
+  background-color: black;
+}
+
+.thankyouPage {
+  font-family: "Overpass", sans-serif;
+  border-style: solid;
+  border-radius: 30px;
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 327px;
+  height: 360px;
+  margin: auto;
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+}
+
+.image {
+  margin-top: 34px;
+  margin-left: 92px;
+}
+
+.p1 {
+  text-align: center;
+  margin-left: 80px;
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  width: 168px;
+  height: 32px;
+  left: 104px;
+  top: 308px;
+  color: #fc7614;
+  border-radius: 30px;
+  background-color: #262e38;
+  padding-top: 8px;
+}
+
+.p2 {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.p3 {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #969fad;
+}
