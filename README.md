@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [live site URL](https://alberto-12.github.io/interactive-rating-component/)
+- Live Site URL: [live site URL](https://interactive-rating-component-alberto.netlify.app/)
 
 ## My process
 
