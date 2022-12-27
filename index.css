@@ -1,48 +1,40 @@
-.main {
-  font-family: "Overpass", sans-serif;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   width: 100%;
-  height: 100%;
-  margin: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: black;
 }
 
-.app {
-  border-style: solid;
-  border-radius: 30px;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 327px;
-  height: 360px;
-  margin: auto;
-  background: radial-gradient(
-    98.96% 98.96% at 50% 0%,
-    #232a34 0%,
-    #181e27 100%
-  );
-}
-
-.iconDiv {
-  border-radius: 360px;
-  background-color: #262e38;
-  width: 40px;
-  height: 40px;
-  margin: 24px;
+.main {
+  font-family: "Overpass", sans-serif;
+  width: 90%;
+  height: 60%;
+  background: radial-gradient(98.96% 98.96% at 50% 0%,
+      #232a34 0%,
+      #181e27 100%);
+  border-radius: 15px;
+  /*display: none;*/
 }
 
 .star {
   padding: 11.5px;
+  border-radius: 360px;
+  background-color: #263638bb;
+  margin-top: 8%;
+  margin-left: 8%;
 }
 
 .question {
-  margin-left: 24px;
+  margin-left: 8%;
+  margin-top: 5%;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -51,11 +43,11 @@
 }
 
 .feedback {
-  margin-top: -10px;
-  margin-left: 24px;
+  margin-top: 5%;
+  margin-left: 8%;
+  margin-bottom: 10%;
   color: #969fad;
-  width: 340px;
-  height: 72px;
+  width: 90%;
   font-family: "Overpass";
   font-style: normal;
   font-weight: 400;
@@ -63,29 +55,57 @@
   line-height: 24px;
 }
 
-.button {
-  border-radius: 360px;
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.radios {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  height: 42px;
+  margin-bottom: 5%;
+  padding-left: 3.5%;
+
+}
+
+input {
   width: 42px;
   height: 42px;
-  background: #262e38;
-  color: #7c8798;
-  border: none;
+  background-color: #262E38;
+  appearance: none;
+  border-radius: 50%;
 }
 
-.buttonContainer {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-  width: 281px;
-  height: 42px;
-  margin-left: 24px;
+label {
+  color: #7C8798;
+  position: relative;
+  top: 2%;
+  right: 10.3%;
 }
 
-.submitbutton {
-  margin-left: 25px;
-  margin-top: 30px;
-  width: 279px;
-  height: 45px;
+input:hover {
+  cursor: pointer;
+  background-color: #FC7614;
+}
+
+input:checked {
+  background-color: #7C8798;
+}
+
+input[type="radio"]:checked+label {
+  color: white;
+}
+
+
+.submitButton {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 3em;
   border-radius: 22.5px;
   background: #fc7614;
   color: #ffffff;
@@ -95,23 +115,134 @@
   border: none;
 }
 
-.button:hover {
-  background:#fc7614;
-  transition: 0.7s;
-  color: white;
-}
-
-.submitbutton:hover {
+.submitButton:hover {
   background-color: white;
-  transition: 0.7s;
+  cursor: pointer;
   color: #fc7614;
 }
 
-.ancor {
-  color: white;
-  text-decoration: none;
+#thankYou {
+  display: none;
+  width: 90%;
+  height: 60%;
+
 }
 
-.ancor:hover {
+.thankyouPage {
+  font-family: "Overpass", sans-serif;
+  border-style: solid;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(98.96% 98.96% at 50% 0%,
+      #232a34 0%,
+      #181e27 100%);
+  background: radial-gradient(98.96% 98.96% at 50% 0%,
+      #232a34 0%,
+      #181e27 100%);
+
+}
+
+.image {
+  height: 5em;
+  position: relative;
+  top: 4%;
+}
+
+#message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
   color: #fc7614;
+  border-radius: 30px;
+  background-color: #262e38;
+  width: 168px;
+  height: 32px;
+}
+
+.p2 {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  top: -2%;
+}
+
+.p3 {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #969fad;
+  position: relative;
+  top: -5%;
+  width: auto;
+}
+
+@media (min-width: 1024px) {
+
+  #thankYou {
+    width: 40%;
+  
+  }
+  
+
+  .star {
+    margin: 0;
+    position: relative;
+    top: 5%;
+    left: 7%;
+    margin-bottom: 2%;
+  }
+
+  .question {
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .feedback {
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 5%;
+  }
+
+
+  input {
+    width: 51px;
+    height: 51px;
+  }
+
+  .radios {
+    padding-left: 4.8%;
+  }
+
+  .submitButton {
+    width: 85%;
+  }
+  
+  .main {
+    width: 40%;
+  }
+
 }

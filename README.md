@@ -43,10 +43,26 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
+- Javascript
 
 ### What I learned
 
- This is a small project to practice handling user interactions and updating the DOM with JavaScript but  is missing the Javasript code which I still need to work on. It was usefull anyway to learn CSS positioning using Flexbox. Here's a snippet of the CSS code with Flexbox and hovering effect:
+ This is a small project to practice handling user interactions and updating the DOM with JavaScript. I just now implemented the Javascript for and here's the code which i'm really proud of:
+ ```js
+  const form = document.querySelector("form");
+  const message = document.getElementById("message");
+  const mainPaige = document.getElementById("mainPage");
+  const thankYouPage = document.getElementById("thankYou");
+
+form.addEventListener("submit", function(event) {
+  event.preventDefault();
+  const rating = form.elements.rating.value;
+  message.innerHTML = ("You selected " + rating + " out of 5"); 
+  mainPaige.style.display = "none";
+  thankYouPage.style.display = "block";
+
+});
+ ```
 
 ```css
 .buttonContainer {
@@ -67,11 +83,12 @@ Users should be able to:
 
 ### Continued development
 
-I'm looking forward to learn more about css positioning techniques like grid and also to implement the Javascript code. 
+I'm looking forward to learn more about css positioning techniques like grid and also to learn more about Javascript. 
 
 ### Useful resources
 
 - [Example resource 1](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This helped me to understand better how Flexbox works.
+- [Example resource 2](https://www.youtube.com/watch?v=i37KVt_IcXw) - This helped me to understand better how to manipulate the DOM using Vanilla Javascript.
 
 ## Author
 
