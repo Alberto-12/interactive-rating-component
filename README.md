@@ -47,7 +47,8 @@ Users should be able to:
 
 ### What I learned
 
- This is a small project to practice handling user interactions and updating the DOM with JavaScript. I just now implemented the Javascript for and here's the code which i'm really proud of:
+ This is a small project to practice handling user interactions and updating the DOM with JavaScript. I just now implemented the Javascript for it and here's the code which I'm really proud of:
+
  ```js
   const form = document.querySelector("form");
   const message = document.getElementById("message");
@@ -64,31 +65,13 @@ form.addEventListener("submit", function(event) {
 });
  ```
 
-```css
-.buttonContainer {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-  width: 281px;
-  height: 42px;
-  margin-left: 24px;
-}
-
-.button:hover {
-  background:#fc7614;
-  transition: 0.7s;
-  color: white;
-}
-```
-
 ### Continued development
 
 I'm looking forward to learn more about css positioning techniques like grid and also to learn more about Javascript. 
 
 ### Useful resources
 
-- [Example resource 1](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This helped me to understand better how Flexbox works.
-- [Example resource 2](https://www.youtube.com/watch?v=i37KVt_IcXw) - This helped me to understand better how to manipulate the DOM using Vanilla Javascript.
+- [Example resource 1](https://www.youtube.com/watch?v=i37KVt_IcXw) - This helped me to understand better how to manipulate the DOM using Vanilla Javascript.
 
 ## Author
 
